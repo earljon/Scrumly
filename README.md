@@ -14,7 +14,7 @@ Future:
 
 Screenshot
 ===========
-(https://raw.github.com/earljon/Scrumly/master/scrumly_screenshot.png)
+![Scrumly Main screen](https://raw.github.com/earljon/Scrumly/master/scrumly_screenshot.png)
 
 ------------------------------------------
 Copyright 2013 Earljon Hidalgo
