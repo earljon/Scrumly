@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB60DAB17139941003368A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB60DAA17139941003368A6 /* UIKit.framework */; };
+		0AB60DAD17139941003368A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB60DAC17139941003368A6 /* Foundation.framework */; };
+		0AB60DAF17139941003368A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB60DAE17139941003368A6 /* CoreGraphics.framework */; };
+		0AB60DB517139941003368A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB60DB317139941003368A6 /* InfoPlist.strings */; };
+		0AB60DB717139941003368A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB60DB617139941003368A6 /* main.m */; };
+		0AB60DBB17139941003368A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB60DBA17139941003368A6 /* AppDelegate.m */; };
+		0AB60DBD17139941003368A6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB60DBC17139941003368A6 /* Default.png */; };
+		0AB60DBF17139941003368A6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB60DBE17139941003368A6 /* Default@2x.png */; };
+		0AB60DC117139941003368A6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB60DC017139941003368A6 /* Default-568h@2x.png */; };
+		0AB60DC417139941003368A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB60DC317139941003368A6 /* ViewController.m */; };
+		0AB60DC717139941003368A6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AB60DC517139941003368A6 /* ViewController.xib */; };
+		0AB60DD21713A4A9003368A6 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB60DD11713A4A9003368A6 /* NSMutableArray+Shuffle.m */; };
+		0AB60DD61713B0FE003368A6 /* blue_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB60DD41713B0FE003368A6 /* blue_bg.png */; };
+		0AB60DD71713B0FE003368A6 /* blue_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB60DD51713B0FE003368A6 /* blue_bg@2x.png */; };
+		0AB60DDA1713B46B003368A6 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB60DD91713B46B003368A6 /* BebasNeue.otf */; };
+		0AB60DE21713DDFE003368A6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB60DE01713DDFE003368A6 /* Icon.png */; };
+		0AB60DE31713DDFE003368A6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB60DE11713DDFE003368A6 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AB60DA717139941003368A6 /* Scrumly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB60DAA17139941003368A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AB60DAC17139941003368A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AB60DAE17139941003368A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AB60DB217139941003368A6 /* ScrumPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrumPicker-Info.plist"; sourceTree = "<group>"; };
+		0AB60DB417139941003368A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AB60DB617139941003368A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AB60DB817139941003368A6 /* ScrumPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrumPicker-Prefix.pch"; sourceTree = "<group>"; };
+		0AB60DB917139941003368A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AB60DBA17139941003368A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AB60DBC17139941003368A6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0AB60DBE17139941003368A6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0AB60DC017139941003368A6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0AB60DC217139941003368A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AB60DC317139941003368A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AB60DC617139941003368A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0AB60DD01713A4A9003368A6 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		0AB60DD11713A4A9003368A6 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		0AB60DD41713B0FE003368A6 /* blue_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_bg.png; sourceTree = "<group>"; };
+		0AB60DD51713B0FE003368A6 /* blue_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue_bg@2x.png"; sourceTree = "<group>"; };
+		0AB60DD91713B46B003368A6 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
+		0AB60DE01713DDFE003368A6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ScrumPicker/Icon.png; sourceTree = "<group>"; };
+		0AB60DE11713DDFE003368A6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "ScrumPicker/Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB60DA417139941003368A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB60DAB17139941003368A6 /* UIKit.framework in Frameworks */,
+				0AB60DAD17139941003368A6 /* Foundation.framework in Frameworks */,
+				0AB60DAF17139941003368A6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB60D9E17139941003368A6 = {
+			isa = PBXGroup;
+			children = (
+				0AB60DE01713DDFE003368A6 /* Icon.png */,
+				0AB60DE11713DDFE003368A6 /* Icon@2x.png */,
+				0AB60DB017139941003368A6 /* ScrumPicker */,
+				0AB60DA917139941003368A6 /* Frameworks */,
+				0AB60DA817139941003368A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB60DA817139941003368A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB60DA717139941003368A6 /* Scrumly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB60DA917139941003368A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB60DAA17139941003368A6 /* UIKit.framework */,
+				0AB60DAC17139941003368A6 /* Foundation.framework */,
+				0AB60DAE17139941003368A6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AB60DB017139941003368A6 /* ScrumPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0AB60DDF1713DA1B003368A6 /* Categories */,
+				0AB60DB917139941003368A6 /* AppDelegate.h */,
+				0AB60DBA17139941003368A6 /* AppDelegate.m */,
+				0AB60DC217139941003368A6 /* ViewController.h */,
+				0AB60DC317139941003368A6 /* ViewController.m */,
+				0AB60DC517139941003368A6 /* ViewController.xib */,
+				0AB60DB117139941003368A6 /* Supporting Files */,
+			);
+			path = ScrumPicker;
+			sourceTree = "<group>";
+		};
+		0AB60DB117139941003368A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB60DD81713B46B003368A6 /* fonts */,
+				0AB60DD31713B0FE003368A6 /* images */,
+				0AB60DB217139941003368A6 /* ScrumPicker-Info.plist */,
+				0AB60DB317139941003368A6 /* InfoPlist.strings */,
+				0AB60DB617139941003368A6 /* main.m */,
+				0AB60DB817139941003368A6 /* ScrumPicker-Prefix.pch */,
+				0AB60DBC17139941003368A6 /* Default.png */,
+				0AB60DBE17139941003368A6 /* Default@2x.png */,
+				0AB60DC017139941003368A6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AB60DD31713B0FE003368A6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0AB60DD41713B0FE003368A6 /* blue_bg.png */,
+				0AB60DD51713B0FE003368A6 /* blue_bg@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		0AB60DD81713B46B003368A6 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0AB60DD91713B46B003368A6 /* BebasNeue.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		0AB60DDF1713DA1B003368A6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0AB60DD01713A4A9003368A6 /* NSMutableArray+Shuffle.h */,
+				0AB60DD11713A4A9003368A6 /* NSMutableArray+Shuffle.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB60DA617139941003368A6 /* ScrumPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB60DCA17139941003368A6 /* Build configuration list for PBXNativeTarget "ScrumPicker" */;
+			buildPhases = (
+				0AB60DA317139941003368A6 /* Sources */,
+				0AB60DA417139941003368A6 /* Frameworks */,
+				0AB60DA517139941003368A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrumPicker;
+			productName = ScrumPicker;
+			productReference = 0AB60DA717139941003368A6 /* Scrumly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB60D9F17139941003368A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Earljon Hidalgo";
+			};
+			buildConfigurationList = 0AB60DA217139941003368A6 /* Build configuration list for PBXProject "ScrumPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AB60D9E17139941003368A6;
+			productRefGroup = 0AB60DA817139941003368A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB60DA617139941003368A6 /* ScrumPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB60DA517139941003368A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB60DB517139941003368A6 /* InfoPlist.strings in Resources */,
+				0AB60DBD17139941003368A6 /* Default.png in Resources */,
+				0AB60DBF17139941003368A6 /* Default@2x.png in Resources */,
+				0AB60DC117139941003368A6 /* Default-568h@2x.png in Resources */,
+				0AB60DC717139941003368A6 /* ViewController.xib in Resources */,
+				0AB60DD61713B0FE003368A6 /* blue_bg.png in Resources */,
+				0AB60DD71713B0FE003368A6 /* blue_bg@2x.png in Resources */,
+				0AB60DDA1713B46B003368A6 /* BebasNeue.otf in Resources */,
+				0AB60DE21713DDFE003368A6 /* Icon.png in Resources */,
+				0AB60DE31713DDFE003368A6 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB60DA317139941003368A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB60DB717139941003368A6 /* main.m in Sources */,
+				0AB60DBB17139941003368A6 /* AppDelegate.m in Sources */,
+				0AB60DC417139941003368A6 /* ViewController.m in Sources */,
+				0AB60DD21713A4A9003368A6 /* NSMutableArray+Shuffle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AB60DB317139941003368A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB60DB417139941003368A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AB60DC517139941003368A6 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB60DC617139941003368A6 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AB60DC817139941003368A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AB60DC917139941003368A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Earljon Hidalgo";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Earljon Hidalgo";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "627DE37B-82B6-4781-AB3C-26BAFF07565D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "627DE37B-82B6-4781-AB3C-26BAFF07565D";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AB60DCB17139941003368A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrumPicker/ScrumPicker-Prefix.pch";
+				INFOPLIST_FILE = "ScrumPicker/ScrumPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = Scrumly;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AB60DCC17139941003368A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrumPicker/ScrumPicker-Prefix.pch";
+				INFOPLIST_FILE = "ScrumPicker/ScrumPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = Scrumly;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB60DA217139941003368A6 /* Build configuration list for PBXProject "ScrumPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB60DC817139941003368A6 /* Debug */,
+				0AB60DC917139941003368A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB60DCA17139941003368A6 /* Build configuration list for PBXNativeTarget "ScrumPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB60DCB17139941003368A6 /* Debug */,
+				0AB60DCC17139941003368A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB60D9F17139941003368A6 /* Project object */;
+}
