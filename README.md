@@ -12,5 +12,8 @@ Future:
 - Save each scrum stand up activity in a data store
 - Ability to set/tag late comer
 
+Screenshot
+===========
+
 ------------------------------------------
 Copyright 2013 Earljon Hidalgo
